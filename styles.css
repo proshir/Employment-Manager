@@ -1,0 +1,91 @@
+body {
+    text-align: -webkit-center;
+    background: linear-gradient(to right,#bcdab6, #d7e4ffd9);
+}
+
+.container, .container_employee_free {
+    display: flex;
+    background: azure;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 6px 30px 0 rgb(0 0 0 / 12%);
+    width: fit-content;
+}
+
+.city {
+    padding: 10px;
+    display: flex;
+    min-width: 90px;
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 5%);
+    margin: 10px;
+    border: 1px solid cornsilk;
+    background-color: #f2f7f7;
+    border-radius: 25px;
+    min-height: 100px;
+    flex-direction: column;
+}
+
+.employee-div {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flow-root;
+}
+    .employee {
+        background-color: antiquewhite;
+        text-align: center;
+        cursor: move;
+        margin: 5px 0;
+        box-shadow: 0 6px 70px 0 rgb(0 0 0 / 12%);
+        font-size: 17px;
+        border-radius: 25px;
+    }
+
+.employee-free-div .employee {
+    background-color: #fedcff;
+}
+
+.container_employee_free
+{
+    display: block;
+    margin: 10px;
+}
+
+/* CSS */
+#save-button {
+  --c: #fff;
+  /* text color */
+  background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+    orange;
+  /* background color */
+  color: #0000;
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+    calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+  outline-offset: .1em;
+  transition: 0.3s;
+}
+
+#save-button:hover,
+#save-button:focus-visible {
+  --_p: 0%;
+  --_i: 1;
+}
+
+#save-button:active {
+  text-shadow: none;
+  color: var(--c);
+  box-shadow: inset 0 0 9e9q #0005;
+  transition: 0s;
+}
+
+#save-button {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 5px;
+  cursor: pointer;
+  padding: .1em .3em;
+}

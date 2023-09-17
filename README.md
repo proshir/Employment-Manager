@@ -1,4 +1,4 @@
-# Employeement_Manager
+# Employment Manager
 ![Untitled](https://github.com/proshir/Employeement_Manager/assets/19504971/f9a6939b-429f-44e3-8f64-ffdd0043afce)
 
 ### Project Description:
